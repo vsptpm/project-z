@@ -1,0 +1,15 @@
+.sidebar__items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.sidebar__closeIcon{
+    display: flex;
+}
+.sidebar__itemsComp{
+    display: flex;
+    align-items: center;
+}

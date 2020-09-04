@@ -1,0 +1,14 @@
+.ImageUpload{
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+    object-fit: contain;
+    margin: 20px;
+}
+.imageUpload__progress{
+    width: 100%;
+    border: 0px;
+}
+.imageUpload__select::-webkit-file-upload-button {
+    visibility: hidden;
+  }

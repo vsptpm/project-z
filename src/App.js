@@ -8,7 +8,7 @@ import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
 
-  const [posts, setPosts] = useState([]);ennu uchakond cheyane
+  const [posts, setPosts] = useState([]);
   const [username,] = useState('');
   const [user, setUser] = useState(null);
   

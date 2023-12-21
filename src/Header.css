@@ -21,6 +21,7 @@
     border-radius: 50%;
   }
   .header__signup{
+    height: 300px;
     display: flex;
     background-color :white;
     flex-direction: column;
@@ -40,7 +41,9 @@
     
   }
   .header__logout{
+    margin-top: 10px;
       margin-right: 8px;
+      cursor: pointer;
   }
   .header__centerchild{
       display: flex;

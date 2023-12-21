@@ -4,6 +4,8 @@
     width: 90%; 
     object-fit: contain;
     margin: 20px;
+    height: 300px;
+    justify-content: space-evenly;
 }
 .imageUpload__progress{
     width: 100%;
@@ -12,3 +14,4 @@
 .imageUpload__select::-webkit-file-upload-button {
     visibility: hidden;
   }
+.caption{}

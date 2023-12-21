@@ -16,7 +16,7 @@ function App() {
    const unsubscribe = auth.onAuthStateChanged((authUser) => {
      if (authUser){
       //user has logged in 
-      console.log(authUser);
+      // console.log(authUser);
       setUser(authUser);
 
      }
@@ -35,15 +35,15 @@ function App() {
   //useEffect runs a code based on a condition ie, whenever a variable or thing change the code fires up inside it
 
   useEffect(() => {
-    
     db.collection('posts').orderBy('timestamp','desc').onSnapshot(snapshot => {
       setPosts(snapshot.docs.map(doc => ({
         id : doc.id,
         post :doc.data()      //this piece of code will run whenever a new post is added
       })))
     })
+    
   }, []);
-
+  // console.log(posts,'postsss')
   
   return (
     <div className="app">

@@ -124,8 +124,6 @@ export default function PersistentDrawerLeft() {
                 <Button>Side bar items #3</Button>
             </div>
             
-            
-            
 
         </div>
         
